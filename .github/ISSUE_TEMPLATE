@@ -1,0 +1,21 @@
+name: New Processing Request
+description: Suggest a new Bioproject or SRA Study for processing
+title: "[Study] "
+labels: ["New", "Needs Triage"]
+body:
+- type: checkboxes
+  attributes:
+    label: Is this an urgent request?
+    description: Please search to see if an issue already exists for the bug you encountered.
+    options:
+    - label: Yes
+- type: textarea
+  attributes:
+    label: The PRJ, SRP, or Pubmed accession
+    description: This must be included
+  validations:
+    required: true
+  examples:
+    - SRP000123
+    - PRJNA000123
+    - 300000123
