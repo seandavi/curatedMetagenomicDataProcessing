@@ -12,6 +12,5 @@ body:
         - SRP000123
         - PRJNA000123
         - 300000123
-    render: markdown
   validations:
     required: true
