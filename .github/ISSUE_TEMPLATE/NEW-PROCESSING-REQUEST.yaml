@@ -11,11 +11,11 @@ body:
     - label: Yes
 - type: textarea
   attributes:
-    label: The PRJ, SRP, or Pubmed accession
-    description: This must be included
-  validations:
-    required: true
-  examples:
-    - SRP000123
-    - PRJNA000123
-    - 300000123
+    label: Accession
+    description: The PRJ, SRP, or Pubmed accession
+    validations:
+      required: true
+    examples:
+      - SRP000123
+      - PRJNA000123
+      - 300000123
