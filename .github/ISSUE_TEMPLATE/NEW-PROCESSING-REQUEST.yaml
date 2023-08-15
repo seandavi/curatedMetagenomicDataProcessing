@@ -3,7 +3,7 @@ description: Suggest a new Bioproject or SRA Study for processing
 title: "[Study] "
 labels: ["New", "Needs Triage"]
 body:
-- type: textarea
+- type: input
   attributes:
     label: Accession
     description: |
