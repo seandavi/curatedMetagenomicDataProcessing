@@ -6,10 +6,12 @@ body:
 - type: textarea
   attributes:
     label: Accession
-    description: The PRJ, SRP, or Pubmed accession
-    examples:
-      - SRP000123
-      - PRJNA000123
-      - 300000123
+    description: |
+      The PRJ, SRP, or Pubmed accession
+      examples:
+        - SRP000123
+        - PRJNA000123
+        - 300000123
+    render: markdown
   validations:
     required: true
